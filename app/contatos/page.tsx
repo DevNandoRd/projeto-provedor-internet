@@ -4,7 +4,6 @@ import { TextField, Button } from '@mui/material';
 import { FaWhatsapp, FaEnvelope, FaFacebook, FaYoutube } from "react-icons/fa";
 import { MdPlace } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
-import makeStyles from '@mui/material';
 
 export default function Contatos() {
 
@@ -23,9 +22,9 @@ export default function Contatos() {
                         <div>
                             <p>Informações de Contato:</p>
                             <ul>
-                                <li><MdPlace /> Endereço: "Rua das Conexões, 123, Bairro da Conectividade, Cidade dos Links, Estado da Conexão, CEP: 12345-678" </li>
-                                <li><FaWhatsapp/> Telefone: "(00) 1234-5678"</li>
-                                <li><FaEnvelope/> E-mail: "contato@connect.com"</li>
+                                <li><MdPlace /> Endereço: Rua das Conexões, 123, Bairro da Conectividade, Cidade dos Links, Estado da Conexão, CEP: 12345-678 </li>
+                                <li><FaWhatsapp/> Telefone: (00) 1234-5678</li>
+                                <li><FaEnvelope/> E-mail: contato@connect.com</li>
                             </ul>
                         </div>
                         <div>
