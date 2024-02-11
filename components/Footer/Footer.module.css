@@ -1,0 +1,80 @@
+.myAppContainer6 {
+    padding: 60px 0px;
+    background-color: var(--Azul);
+}
+.footer img {
+    width: 200px;
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.footer h2 {
+    font-size: 30px;
+    color: var(--Laranja);
+}
+.footer h3 {
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.listIcons {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.listIcons button {
+    display: flex;
+    background-color: var(--Laranja);
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.listIcons button:hover {
+    transform: scale(1.1);
+}
+.copy {
+    background-color: var(--Laranja);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .myAppContainer6 {
+        padding: 60px 20px;
+    }
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        align-items: center;
+    }
+    .footer h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .footer h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .listIcons {
+        justify-content: center;
+    }
+    .copy {
+        padding: 20px;
+    }
+}

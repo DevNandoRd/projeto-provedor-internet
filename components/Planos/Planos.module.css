@@ -1,0 +1,82 @@
+.myAppContainer3 {
+    padding: 0px 0px 60px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.spaceCanvas {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.spaceCanvas h2 {
+    font-size: 35px;
+    color: var(--Azul);
+    text-align: center;
+}
+.spaceCanvas p {
+    font-size: 16px;
+    color: var(--Laranja);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.plano {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Azul);
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 40px;
+    justify-content: space-around;
+    width: 100%;
+}
+.plano h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.plano li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+    border-bottom: solid 1.5px rgba(255, 255, 255, 0.209);
+}
+.plano h4 {
+    font-size: 35px;
+    font-weight: 900;
+}
+.plano button {
+    background-color: var(--Laranja);
+    width: 100%;
+    border-radius: 500px;
+    padding: 10px ;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.plano button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .myAppContainer3 {
+        padding: 0px 20px 60px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .planos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}

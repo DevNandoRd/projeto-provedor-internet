@@ -1,0 +1,61 @@
+.myAppContainer2 {
+    background-image: url(/assets/site-provedor.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    color: white;
+    margin-bottom: 80px;
+}
+.titulo h1 {
+    font-size: 50px;
+}
+.titulo h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.titulo button {
+    background-color: var(--Laranja);
+    border: none;
+    width: 60%;
+    padding: 15px;
+    border-radius: 500px;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.titulo button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .myAppContainer2 {
+        background-image: url(/assets/site-provedor-mobile.jpg);
+        height: 700px;
+        padding: 60px 15px 0px 15px;
+        justify-content: top;
+        align-items: flex-start
+    }
+    .titulo {
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 80px;
+        text-align: center;
+        align-items: top;
+    }
+    .titulo h1 {
+        font-size: 40px;
+    }
+    .titulo h2 {
+        font-size: 20px;
+    }
+}

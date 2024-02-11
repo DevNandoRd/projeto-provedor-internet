@@ -1,0 +1,82 @@
+.myAppContainer4 {
+    background-image: url(/assets/Vantagens.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 90px 0px;
+    height: 640px;
+}
+.spaceCanvas {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.myAppContainer4 h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+.boxList {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+.boxIcon{
+    display: flex;
+    align-items: center;
+    background-color: var(--Laranja);
+    color: white;
+    font-size: 30px;
+    margin-left: -35px;
+    padding: 15px;
+    border-radius: 30px;
+}
+.box {
+    background-color: rgba(255, 255, 255, 0.16);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .myAppContainer4 {
+        background-image: url(/assets/Vantagens-mobile.jpg);
+        background-position: top center;
+        background-size: cover;
+        padding: 90px 15px;
+        height: 1200px;
+    }
+    .spaceCanvas {
+        align-items: center;
+    }
+    .myAppContainer4 h2 {
+        font-size: 35px;
+        margin-top: 250px;
+        margin-bottom: 60px;
+    }
+    .boxList {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+    .boxIcon{
+        margin-left: 0px;
+        margin-top: -40px;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+}

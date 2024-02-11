@@ -1,0 +1,54 @@
+
+:root {
+  --Azul: #002dad;
+  --Azul-claro: #3c65da;
+  --Laranja: #ff6000;
+  --Laranja-claro: #ff9100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.space-canvas {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.space-canvas-col {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .space-canvas-col {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

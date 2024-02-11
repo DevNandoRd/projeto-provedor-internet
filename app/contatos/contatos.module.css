@@ -1,0 +1,106 @@
+.pgInternas {
+    background-color: var(--Azul);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.myAppContainer {
+    padding: 60px 0px;
+}
+.informs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+.informs h2 {
+    font-size: 18px;
+    color: var(--Azul);
+}
+.informs p {
+    font-size: 20px;
+    color: var(--Laranja);
+    font-weight: 700;
+    padding: 5px 0px;
+}
+.informs ul li {
+    color: var(--Azul);
+    line-height: 30px;
+    list-style: none;
+}
+.informs h5 {
+    color: var(--Azul);
+}
+.listIcons {
+    display: flex;
+    gap: 5px;
+}
+.listIcons button {
+    display: flex;
+    background-color: var(--Laranja);
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.listIcons button:hover {
+    transform: scale(1.1);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.form h4 {
+    text-align: center;
+    color: var(--Azul);
+    font-size: 25px;
+}
+.form button {
+    background-color: var(--Laranja);
+    color:white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.form button:hover {
+    transform: scale(1.1);
+    background-color: var(--Azul);
+}
+
+@media screen and (max-width: 1140px) {
+    .myAppContainer {
+        padding: 60px 20px;
+    }
+    .informs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    .informs h2 {
+        font-size: 18px;
+    }
+    .informs p {
+        padding: 5px 0px;text-align: center;
+    }
+    .listIcons {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    .form {
+        width: 100%;
+    }
+    .form h4 {
+        margin-top: 20px;
+    }
+}

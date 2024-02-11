@@ -1,0 +1,99 @@
+.myAppContainer1 {
+    background-color: white;
+    padding: 20px 0px;
+    display: flex;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu a {
+    text-decoration: none;
+    color: var(--Azul);
+    transition: 0.3s ease-in-out;
+}
+.menu a:hover {
+    color: var(--Laranja);
+}
+.botao button {
+    background-color: var(--Laranja);
+    color: white;
+    padding: 15px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 500px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.botao button:hover {
+    transform: scale(1.1);
+}
+.menuMobile {
+    display: none;
+}
+.menuMobile button{
+    display: flex;
+    background-color: var(--Azul);
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .myAppContainer1 {
+        background-color: white;
+        padding: 20px 15px;
+        display: flex;
+    }
+    .botao button {
+        font-size: 10px;
+    }
+    .menu ul {
+        display: none;
+    }
+    .menuMobile {
+        display: block;
+    }
+    .visivel {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: var(--Azul);
+        padding: 20px;
+        margin-top: 30px;
+        right: 0;
+        transform: scale(1);
+        transition: 0.3s;
+    }
+    .invisivel {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: var(--Azul);
+        padding: 20px;
+        margin-top: 30px;
+        right: 0;
+        transform: scale(0);
+        transition: 0.3s;
+    }
+    .visivel ul a {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        line-height: 30px;
+    }
+    .visivel ul a:hover {
+        color: var(--Laranja);
+    } 
+}
+

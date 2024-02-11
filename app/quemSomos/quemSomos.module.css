@@ -1,0 +1,48 @@
+.pgInternas {
+    background-color: var(--Azul);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.myAppContainer {
+    padding: 60px 0px;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+.texto h3 {
+    font-size: 30px;
+    color: var(--Azul);
+}
+.texto p {
+    font-size: 14px;
+}
+.myAppContainer img {
+    width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .pgInternas {
+        font-size: 25px;
+    }
+    .myAppContainer {
+        padding: 60px 20px;
+    }
+    .texto {
+        width: 100%;
+        gap: 10px;
+    }
+    .texto h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .myAppContainer img {
+        margin-top: 30px;
+        width: 300px;
+    }
+
+}
