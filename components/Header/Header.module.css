@@ -4,7 +4,8 @@
     display: flex;
 }
 .logo{
-    width: 150px;
+    width: 60%;
+    height: 60%;
     cursor: pointer;
 }
 .menu ul {

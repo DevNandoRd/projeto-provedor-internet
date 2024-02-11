@@ -7,6 +7,7 @@ import { RxDropdownMenu } from "react-icons/rx";
 import Menu from '../Menu/Menu';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
     const [toggle, setToggle] = useState(false)
@@ -18,7 +19,15 @@ export default function Header() {
         <>
             <div className={styles.myAppContainer1}>
                 <header className='space-canvas'>
-                    <div><Link href='/'><img src='/assets/Logo-azul.png' alt="Connect" className={styles.logo}/></Link></div>
+                    <div>
+                        <Image
+                        src={"/assets/Logo-azul.png"}
+                        alt='connect'
+                        width={232}
+                        height={84}
+                        className={styles.logo}
+                        />
+                    </div>
                     <div className={styles.menu}>
                         <Menu/>
                     </div>

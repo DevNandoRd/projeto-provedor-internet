@@ -2,6 +2,7 @@ import styles from '../Footer/Footer.module.css'
 import { FaWhatsapp, FaEnvelope, FaFacebook, FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
@@ -9,7 +10,12 @@ export default function Footer() {
             <div className={styles.myAppContainer6}>
                 <footer className={styles.footer}>
                     <div>
-                        <Link href={'/'}><img src="/assets/logo.png" alt="Connect" /></Link>
+                        <Link href={'/'}><Image
+                        src={'/assets/Logo.png'}
+                        alt=''
+                        width={232}
+                        height={84}
+                        /></Link>
                     </div>
                     <div>
                         <h2>Contatos</h2>

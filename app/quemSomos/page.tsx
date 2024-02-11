@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from '../quemSomos/quemSomos.module.css'
 
 export default function QuemSomos() {
@@ -16,8 +17,13 @@ export default function QuemSomos() {
                         <p>Na Connect, valorizamos a transparência, a confiabilidade e a satisfação do cliente acima de tudo. Estamos aqui para simplificar sua experiência de internet e garantir que você tenha tudo o que precisa para se manter conectado e produtivo.</p>
                         <p>Seja você um usuário doméstico, uma pequena empresa ou uma corporação de grande porte, a Connect tem a solução perfeita para suas necessidades de conectividade. Junte-se a nós e descubra o poder da verdadeira internet de alta velocidade.</p>
                     </div>
-                    <div>
-                        <img src="/assets/Moldem.png" alt="" />
+                    <div className={styles.imagem}>
+                        <Image
+                        src={'/assets/Moldem.png'}
+                        alt='Model-connect'
+                        width={625}
+                        height={519}
+                        />
                     </div>
                 </section>
             </div>
