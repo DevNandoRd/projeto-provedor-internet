@@ -6,7 +6,6 @@
 .myAppContainer1 img{
     cursor: pointer;
 }
-
 .menu ul {
     display: flex;
     gap: 20px;
@@ -55,10 +54,7 @@
         padding: 20px 15px;
         display: flex;
     }
-    .logo img {
-        width: 98%;
-        height: 98%;
-    }
+
     .botao button {
         font-size: 10px;
     }

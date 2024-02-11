@@ -19,12 +19,12 @@ export default function Header() {
         <>
             <div className={styles.myAppContainer1}>
                 <header className='space-canvas'>
-                    <div className={styles.logo}>
+                    <div >
                         <Image
                         src={"/assets/Logo-azul.png"}
                         alt='connect'
-                        width={181}
-                        height={66}
+                        width={162.9}
+                        height={59.4}
                         />
                     </div>
                     <div className={styles.menu}>
