@@ -3,11 +3,10 @@
     padding: 20px 0px;
     display: flex;
 }
-.logo{
-    width: 60%;
-    height: 60%;
+.myAppContainer1 img{
     cursor: pointer;
 }
+
 .menu ul {
     display: flex;
     gap: 20px;
@@ -55,6 +54,10 @@
         background-color: white;
         padding: 20px 15px;
         display: flex;
+    }
+    .logo img {
+        width: 98%;
+        height: 98%;
     }
     .botao button {
         font-size: 10px;
